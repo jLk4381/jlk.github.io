@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Мой сайт</title>
+		<meta charset="UTF-8">
+		<meta name="desription" content="Персональный сайт">
+		<meta name="keywords" content="Персональный, сайт">
+		<link rel="stylesheet" type="text/css" href="style.css" media="all">
+		<link rel="shortcut icon" type="image/x-icon" href="images/icon.png">
+	</head>
+	<body>
+		<div class="header">
+			<div class="wrap">
+				<header>
+					<div class="social">
+						<a href="#"><img src="images/vk.png" alt="ВК"></a>
+						<a href="#"><img src="images/im.png" alt="Инстаграмм"></a>
+						<a href="#"><img src="images/yt.png" alt="Ютуб"></a>
+						<a href="#"><img src="images/tw.png" alt="Твиттер"></a>
+					</div>
+					<div class="logo">
+						<a href="index.html"><img src="images/logo2.png" alt="Логотип"></a>
+					</div>
+					<div class="banner">
+						<img src="images/foto.png" width="100" alt="Изображение"> 
+						<h3>Хотите узнать больше обо мне и моих работах?</h3>
+						<p>
+							<a href="progress.html">Смотрите здесь!</a>
+						</p>
+					</div>					
+				</header>
+			</div>
+		</div>
+		<div class="menu">
+			<div class="wrap">
+				<nav>
+					<ul>
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="progress.html">Мои достижения</a></li>
+					<li><a href="contact.html">Контакты</a></li>
+					</ul>
+				</nav>					
+			</div>
+		</div>
+		<div class="content">
+			<div class="wrap">
+				<div class="fon">
+					<h2>Обратная связь</h2>
+					<span class="pole">* Поля обязательные для заполнения</span>
+					<hr class="line">
+					<form class="contact_form" action="" method="post" name="contact_form">
+						<ul>
+							<li>
+								<label>Имя*:</label>
+								<input type="text" name="name" placeholder="Иванов Иван" required>
+							</li>
+							<li>
+								<label>E-mail*:</label>
+								<input type="email" name="email" placeholder="ivanov@gmail.com" required>
+							</li>
+							<li>
+								<label>Телефон:</label>
+								<input type="tel" pattern="8[0-9]{10}" name="telefon" placeholder="89998887766">
+							</li>
+							<li>
+								<label>Сообщение*:</label>
+								<textarea name="message" cols="40" rows="6" required></textarea>
+							</li>
+							<li>
+								<button class="submit" type="submit">Отправить</button>
+							</li>
+						</ul>
+					</form>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="wrap">
+				<span>2019 &copy; Иванов Иван</span>
+				<span>Дизайн и разработка web-страниц</span>
+			</div>
+		</div>
+	</body>
+</html>
